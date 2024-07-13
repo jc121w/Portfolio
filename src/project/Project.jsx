@@ -56,6 +56,7 @@ const Project = ({ animationControl }) => {
       key="0"
       name="BookWorm"
       skills={[[{ Flutter }, "Flutter"]]}
+      src={Flutter}
       yt="https://youtu.be/HBdVtfTkBEk"
       git="https://github.com/JASONCHENEHCNOSAJ/BookWorm"
       desc="BookWorm is a book organizer app I collaborated with group members to create. Users can use it to record and
@@ -88,6 +89,7 @@ const Project = ({ animationControl }) => {
           "MongoDB",
         ],
       ]}
+      src={Flutter}
       yt="https://youtu.be/bqiwh_r4aCc"
       git="https://github.com/JASONCHENEHCNOSAJ/Animal-Shelter-Node-App"
       desc="AdoptAFriend is an app where you can adopt, view, and surrender pets. All the information is stored in a MongoDB collection and interacted with using JS."

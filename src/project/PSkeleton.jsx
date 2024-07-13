@@ -14,7 +14,7 @@ const PSkeleton = (props) => {
               <img
                 className="proj_skill"
                 key={skill}
-                src={skill[0]}
+                src={skill[1] === "Flutter" ? props.src : skill[0]}
                 alt={skill[1]}
               />
             );
