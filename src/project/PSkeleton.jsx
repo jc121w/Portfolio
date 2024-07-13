@@ -9,14 +9,16 @@ const PSkeleton = (props) => {
         <div className="proj_name">{props.name}</div>
         <div className="skills_used">
           Made with:{" "}
-          {props.skills.map((skill) => (
-            <img
-              className="proj_skill"
-              key={skill}
-              src={skill[0]}
-              alt={skill[1]}
-            />
-          ))}{" "}
+          {props.skills.map((skill) => {
+            return (
+              <img
+                className="proj_skill"
+                key={skill}
+                src={skill[0]}
+                alt={skill[1]}
+              />
+            );
+          })}
         </div>
 
         <div className="proj_desc">{props.desc}</div>
