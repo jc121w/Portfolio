@@ -3,7 +3,10 @@ import { motion, useAnimationControls } from "framer-motion";
 import { useState } from "react";
 import Skill from "./Skill";
 import PSkeleton from "./PSkeleton";
-
+import Flutter from "../../assets/flutter.svg";
+import Java from "../../assets/Java.png";
+import RightArrow from "../../assets/right.svg";
+import LeftArrow from "../../assets/left.svg";
 const variant1 = {
   animate: {
     transition: { staggerChildren: 0.3 },
@@ -168,11 +171,7 @@ const Project = ({ animationControl }) => {
               whileInView="animate"
               initial="initial"
             >
-              <Skill
-                variants={skillVariants}
-                name="Java"
-                src="../assets/Java.png"
-              />
+              <Skill variants={skillVariants} name="Java" src={Java} />
               <Skill
                 variants={skillVariants}
                 src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
@@ -188,11 +187,7 @@ const Project = ({ animationControl }) => {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 name="JavaScript"
               />
-              <Skill
-                variants={skillVariants}
-                src="../assets/flutter.svg"
-                name="Flutter"
-              />
+              <Skill variants={skillVariants} src={Flutter} name="Flutter" />
               <Skill
                 variants={skillVariants}
                 src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
@@ -210,7 +205,7 @@ const Project = ({ animationControl }) => {
         <div className="arrow_row">
           <motion.img
             className="arrows"
-            src="../assets/left.svg"
+            src={LeftArrow}
             alt="left"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
@@ -226,7 +221,7 @@ const Project = ({ animationControl }) => {
           </motion.div>
           <motion.img
             className="arrows"
-            src="../assets/right.svg"
+            src={RightArrow}
             alt="right"
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.2 }}

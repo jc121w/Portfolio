@@ -1,11 +1,12 @@
 import React from "react";
 import "./school.css";
+import umdLogo from "../../assets/umd.png";
 const School = () => {
   return (
     <div className="edu_box">
       <div className="title">My Education</div>
       <div className="content">
-        <img className="umd_logo" src="../assets/umd.png" alt="umd_logo" />
+        <img className="umd_logo" src={umdLogo} alt="umd_logo" />
         <ul className="text">
           <div className="bach">Bachelor of Computer Science</div>
           <div className="uni">University of Maryland College Park</div>
