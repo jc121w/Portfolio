@@ -55,7 +55,7 @@ const Project = ({ animationControl }) => {
     <PSkeleton
       key="0"
       name="BookWorm"
-      skills={[["../assets/flutter.svg", "Flutter"]]}
+      skills={[[{ Flutter }, "Flutter"]]}
       yt="https://youtu.be/HBdVtfTkBEk"
       git="https://github.com/JASONCHENEHCNOSAJ/BookWorm"
       desc="BookWorm is a book organizer app I collaborated with group members to create. Users can use it to record and
