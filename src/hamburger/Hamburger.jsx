@@ -41,7 +41,7 @@ const Hamburger = ({ animationControl }) => {
   const toggleBar = () => {
     setIsOpen(!isOpen);
     !isOpen
-      ? animationControl.start({ opacity: 0 })
+      ? animationControl.start({ opacity: 0.75 })
       : animationControl.start({ opacity: 1, transition: { delay: 0.4 } });
   };
 
