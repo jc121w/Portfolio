@@ -37,7 +37,7 @@
   font-size: 23px;
   font-weight: 400;
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   .umd_logo {
     width: auto;
     height: 150px;

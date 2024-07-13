@@ -13,7 +13,7 @@
   height: 70px;
   padding: 5px;
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   .skill_img {
     width: auto;
     height: 50px;

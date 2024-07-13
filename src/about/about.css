@@ -20,7 +20,7 @@ ul {
   width: 1300px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   .container {
     max-width: 65vw;
     height: 90vh;

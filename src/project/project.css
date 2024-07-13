@@ -75,7 +75,7 @@
   box-shadow: 0px 0px 5px #555;
   transition: 0.2s;
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   .skill_title {
     font-size: 25px;
     letter-spacing: 3px;
