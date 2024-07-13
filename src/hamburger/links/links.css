@@ -1,0 +1,29 @@
+.hamburger_links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-decoration: none;
+}
+
+.hamburger_link {
+  text-decoration: none;
+  color: #2b2d42;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.hamburger_link::after {
+  content: "";
+  display: flex;
+  border-bottom: solid 2px #2b2d42;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger_link:hover::after {
+  transform: scaleX(1);
+}

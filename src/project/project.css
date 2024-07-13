@@ -1,0 +1,100 @@
+.out {
+  height: 100vh;
+
+  display: grid;
+}
+.pcontent {
+  width: 65vw;
+  margin: auto;
+  gap: 40px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.skill_container {
+  text-align: center;
+}
+.skill_title {
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+}
+.row1 {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  padding-top: 20px;
+}
+.row2 {
+  display: flex;
+  margin: auto;
+  gap: 15px;
+}
+.arrows {
+  width: auto;
+  height: 50px;
+  cursor: pointer;
+}
+.arrow_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.dot {
+  background-color: #b8bcbd;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  transition: 0.2s;
+}
+.dot_active {
+  background-color: #edf2f4;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  transition: 0.2s;
+}
+@media screen and (max-width: 1800px) {
+  .skill_title {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+  .pcontent {
+    width: 65vw;
+    margin: auto;
+    gap: 20px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .arrow_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+}

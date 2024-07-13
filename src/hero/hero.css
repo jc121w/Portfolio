@@ -1,0 +1,66 @@
+.hero_section {
+  max-width: 65vw;
+  margin: auto;
+  gap: 40px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+.hello {
+  font-size: 40px;
+}
+.desc {
+  font-size: 35px;
+}
+.clip {
+  width: 440px; /* Diameter of the circle (2 * 220px) */
+  height: 440px;
+  clip-path: circle(220px at 220px 220px);
+  position: relative;
+  overflow: hidden;
+}
+.photo {
+  top: -5px; /* Adjusted to position the clipping center */
+  left: -100px;
+  position: absolute;
+
+  max-width: 700px;
+
+  clip-path: circle(220px at 320px 225px);
+}
+@media screen and (max-width: 1800px) {
+  .hero_section {
+    max-width: 70vw;
+    margin: auto;
+    gap: 40px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+  }
+  .hello {
+    font-size: 30px;
+  }
+  .desc {
+    font-size: 25px;
+  }
+  .clip {
+    width: 440px; /* Diameter of the circle (2 * 220px) */
+    height: 440px;
+    clip-path: circle(220px at 220px 220px);
+    position: relative;
+    overflow: hidden;
+  }
+  .photo {
+    top: -5px; /* Adjusted to position the clipping center */
+    left: -100px;
+    position: absolute;
+
+    max-width: 700px;
+
+    clip-path: circle(220px at 320px 225px);
+  }
+}

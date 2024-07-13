@@ -1,0 +1,67 @@
+.edu_box {
+  width: fit-content;
+  height: 25vh;
+}
+.title {
+  padding: 35px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.content {
+  border: 1px solid #8d99ae;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: #414d62;
+  padding: 20px;
+}
+.umd_logo {
+  width: auto;
+  height: 150px;
+}
+.text {
+  color: #edf2f4;
+
+  flex-direction: column;
+  display: flex;
+  font-size: 20px;
+}
+.bach {
+  font-size: 25px;
+  font-weight: 500;
+}
+.uni {
+  font-size: 23px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1800px) {
+  .umd_logo {
+    width: auto;
+    height: 150px;
+  }
+  .title {
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .text {
+    color: #edf2f4;
+
+    flex-direction: column;
+    display: flex;
+    font-size: 15px;
+  }
+  .content {
+    border: 1px solid #8d99ae;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414d62;
+    padding: 20px;
+  }
+}

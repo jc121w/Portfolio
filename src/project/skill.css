@@ -1,0 +1,27 @@
+.skillbox {
+  padding: 5px;
+  width: fit-content;
+}
+
+.id {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 3px;
+}
+.skill_img {
+  width: auto;
+  height: 70px;
+  padding: 5px;
+}
+@media screen and (max-width: 1800px) {
+  .skill_img {
+    width: auto;
+    height: 50px;
+    padding: 5px;
+  }
+  .id {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+  }
+}

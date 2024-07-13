@@ -1,0 +1,45 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+body {
+  background-color: #2b2d42;
+  background: linear-gradient(#2b2d42, #8d99ae);
+  color: #edf2f4;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  max-width: 65vw;
+  margin: auto;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+.link_item {
+  text-decoration: none;
+  color: #edf2f4;
+  font-weight: 400;
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+}
+.link_item:hover {
+  scale: 1.2;
+  color: #d90429;
+}
+.icons {
+  padding-right: 3px;
+}
