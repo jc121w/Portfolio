@@ -13,7 +13,7 @@ const Hamburger = ({ animationControl }) => {
     if (clickedOutside && isOpen) {
       setIsOpen(false);
       !isOpen
-        ? animationControl.start({ opacity: 0.75 })
+        ? animationControl.start({ opacity: 0.2 })
         : animationControl.start({ opacity: 1, transition: { delay: 0.4 } });
     }
   }, [clickedOutside]);
@@ -41,7 +41,7 @@ const Hamburger = ({ animationControl }) => {
   const toggleBar = () => {
     setIsOpen(!isOpen);
     !isOpen
-      ? animationControl.start({ opacity: 0.75 })
+      ? animationControl.start({ opacity: 0.2 })
       : animationControl.start({ opacity: 1, transition: { delay: 0.4 } });
   };
 
