@@ -21,7 +21,7 @@ function Navbar() {
         </a>
 
         <a
-          href="https://github.com/JASONCHENEHCNOSAJ"
+          href="https://github.com/jc121w"
           className="link_item"
           target="_blank"
           rel="noreferrer"
