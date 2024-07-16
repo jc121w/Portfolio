@@ -10,7 +10,7 @@ function App() {
   const fadeControls = useAnimationControls();
   return (
     <div>
-      <section id="Home">
+      <section className="home" id="Home">
         <Hamburger animationControl={fadeControls} />
         <Navbar />
         <Hero animationControl={fadeControls} />
