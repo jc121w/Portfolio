@@ -6,7 +6,7 @@ import School from "./School";
 const About = ({ animationControl }) => {
   const aboutVariants = {
     animate: {
-      transition: { staggerChildren: 0.2 },
+      transition: { staggerChildren: 0.5 },
     },
     initial: {
       transition: {
