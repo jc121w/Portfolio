@@ -7,7 +7,7 @@ const Hero = ({ animationControl }) => {
     <motion.div className="hero_section" animate={animationControl}>
       {" "}
       <motion.div
-        animate={{ opacity: 1, transition: { duration: 0.5, delay: 0.5 } }}
+        animate={{ opacity: 1, transition: { duration: 1, delay: 0.5 } }}
         initial={{ opacity: 0 }}
       >
         <motion.div className="clip" whileHover={{ scale: 1.05 }}>
