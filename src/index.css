@@ -45,3 +45,11 @@ nav {
 .icons {
   padding-right: 3px;
 }
+
+@media screen and (max-width: 500px) {
+  section {
+    height: 100%;
+    scroll-snap-align: start;
+    border-bottom: 1px solid transparent;
+  }
+}

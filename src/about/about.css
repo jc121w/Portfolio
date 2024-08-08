@@ -42,3 +42,26 @@ ul {
     width: 1000px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  ul {
+    line-height: 25px;
+    list-style-type: square;
+  }
+
+  .about_text {
+    font-weight: 300;
+    line-height: 25px;
+    word-spacing: 5px;
+    font-size: 10px;
+    width: fit-content;
+  }
+}

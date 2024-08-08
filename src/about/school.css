@@ -65,3 +65,43 @@
     padding: 20px;
   }
 }
+@media screen and (max-width: 500px) {
+  .edu_box {
+    width: 350px;
+  }
+  .umd_logo {
+    width: auto;
+    height: 110px;
+  }
+  .title {
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .text {
+    color: #edf2f4;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    font-size: 17px;
+  }
+  .content {
+    border: 1px solid #8d99ae;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414d62;
+    padding: 20px 0px 0px 0px;
+  }
+  .bach {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .uni {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

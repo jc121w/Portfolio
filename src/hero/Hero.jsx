@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 import heroImg from "../../assets/GradPic.jpg";
 const Hero = ({ animationControl }) => {
   return (
-    <motion.div className="hero_section" animate={animationControl}>
+    <motion.div animate={animationControl}>
       {" "}
       <motion.div
+        className="hero_section"
         animate={{ opacity: 1, transition: { duration: 1, delay: 0.5 } }}
         initial={{ opacity: 0 }}
       >
