@@ -20,6 +20,8 @@
   font-size: 35px;
   letter-spacing: 3px;
   font-weight: 500;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .skills {
@@ -46,7 +48,8 @@
 .dots {
   display: flex;
   gap: 10px;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 20px;
 }
 .dot {
   background-color: #b8bcbd;
@@ -75,22 +78,23 @@
     gap: 15px;
     margin: auto;
 
-    width: 900px;
+    width: 1050px;
   }
   .skill_title {
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 3px;
     font-weight: 500;
+    text-align: center;
   }
   .pcontent {
     width: 65vw;
     margin: auto;
-    gap: 20px;
+    gap: 0px;
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-around;
   }
   .arrow_row {
     display: flex;
