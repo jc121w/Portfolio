@@ -15,6 +15,7 @@ function App() {
         <Navbar />
         <Hero animationControl={fadeControls} />
       </section>
+
       <section id="About">
         {" "}
         <About animationControl={fadeControls} />

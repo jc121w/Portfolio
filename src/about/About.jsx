@@ -32,16 +32,17 @@ const About = ({ animationControl }) => {
       </motion.div>
 
       <motion.div className="about_text" variants={aboutComponentVariants}>
-        I am an aspiring software engineer with a passion for building
-        innovative and impactful solutions. I am eager to work in collaborative
-        environments, where I can contribute and interact with team members and
-        learn from seasoned professionals. Beyond coding, I enjoy fitness and
-        competitive sports. Tennis, volleyball, and table tennis are some of my
-        favorite. My day-to-day actions are driven by my desire to accomplish
-        something that will push me to become a more well-rounded and
-        knowledgeable individual. I am excited to bring my creativity, technical
-        expertise, and dedication to a forward-thinking organization, where I
-        can grow and make a tangible impact.
+        <div className="title">About Me</div>
+        <span>
+          I am an aspiring software engineer with a passion for building
+          innovative and impactful solutions. I am eager to work in
+          collaborative environments, where I can contribute and interact with
+          team members and learn from seasoned professionals. Beyond coding, I
+          enjoy fitness and competitive sports. Tennis, volleyball, and table
+          tennis are some of my favorite. I am excited to bring my creativity,
+          technical expertise, and dedication to a forward-thinking
+          organization, where I can grow and make an impact.
+        </span>
       </motion.div>
     </motion.div>
   );

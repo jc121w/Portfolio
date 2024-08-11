@@ -17,8 +17,10 @@ const Hero = ({ animationControl }) => {
         <div className="hero_text">
           <p className="hello">Hi, I'm Jason. </p>
           <p className="desc">
-            I'm a new grad looking for full time software engineering and
-            technology positions.
+            I'm a Software Engineer based in College Park, MD. I am a{" "}
+            <b>Spring 2024</b> new grad with a <b>BS in Computer Science </b>
+            from the <b>University of Maryland College Park</b> and am currently
+            looking for New Grad positions!
           </p>
         </div>
       </motion.div>

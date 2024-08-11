@@ -67,7 +67,7 @@
   .hero_section {
     max-width: 90vw;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: start;

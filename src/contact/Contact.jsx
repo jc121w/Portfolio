@@ -96,11 +96,11 @@ export const Contact = () => {
           initial="initial"
         >
           <motion.h1 variants={textVariants}>Send me a message</motion.h1>
-          <motion.div variants={textVariants}>
+          <motion.div className="plz_contact" variants={textVariants}>
             Please contact me through this form or directly at
-            <motion.div className="email" whileHover={{ scale: 1.08 }}>
-              <u>jc121w@gmail.com</u>.
-            </motion.div>{" "}
+            <motion.span whileHover={{ scale: 1.08 }}>
+              <u> jc121w@gmail.com</u>.
+            </motion.span>{" "}
           </motion.div>
 
           <motion.svg

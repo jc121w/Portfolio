@@ -24,21 +24,14 @@
 
 .skills {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
   margin: auto;
+
+  width: 1200px;
 }
-.row1 {
-  display: flex;
-  margin: auto;
-  gap: 10px;
-  padding-top: 20px;
-}
-.row2 {
-  display: flex;
-  margin: auto;
-  gap: 15px;
-}
+
 .arrows {
   width: auto;
   height: 50px;
@@ -76,6 +69,14 @@
   transition: 0.2s;
 }
 @media screen and (max-width: 2000px) {
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+
+    width: 900px;
+  }
   .skill_title {
     font-size: 25px;
     letter-spacing: 3px;
@@ -100,14 +101,22 @@
 }
 
 @media screen and (max-width: 500px) {
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    width: 400px;
+  }
   .skill_title {
     font-size: 25px;
     letter-spacing: 3px;
     font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
   }
   .pcontent {
     width: 100px;
-    border: 1px solid black;
     margin: auto;
     gap: 20px;
     height: 90vh;
@@ -120,6 +129,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 5px;
+  }
+  .arrows {
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+  }
+  .dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 13px;
+  }
+  .dot {
+    background-color: #b8bcbd;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    transition: 0.2s;
   }
 }

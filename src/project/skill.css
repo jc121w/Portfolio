@@ -25,3 +25,16 @@
     padding-top: 3px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .skill_img {
+    width: auto;
+    height: 43px;
+    padding: 0px;
+  }
+  .id {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+  }
+}
